@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Калькулятор</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" href="style.css" />
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   </head>
+   <body>
+      <div class="head">
+         <header>
+            <div class="img"> <a href= "index.html"> <img src="weblogo.png" alt="Изображение" height="100" /> </a></div>
+            <div class="name">
+               <h1>Основы Web-технологий</h1>
+            </div>
+            <div class="nav">
+               <nav>
+                  <ul class="menu">
+                     <li><a href="index.html">Главная</a></li>
+                     <li>
+                        <a href="web.html">Web-технологии</a>
+                        <ul class="submenu">
+                           <li><a href="html5.html">HTML5</a></li>
+                           <li><a href="css3.html">CSS3</a></li>
+                           <li><a href="js.html">JavaScript</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="calc.html">Калькулятор</a></li>
+                     <li><a href="test.html">Тест</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </header>
+      </div>
+      <br />
+      <div class="calc">
+         <form class="content" name="calculator">
+			<table class="calculator">
+				<tr>
+					<td colspan="5"><input id="result" type="text" value="0" name="result"/>
+				</tr>
+				<tr>
+					<td><input type="button" class="number" name="numberButton" value="7" />
+					<td><input type="button" class="number"name="numberButton" value="8" />
+					<td><input type="button" class="number" name="numberButton" value="9" />
+					<td><input type="button" class="functionalButton" name="functionalButton" id="4" value="/" />
+					<td><input type="button" name="reset" id="reset" value="C" />
+				</tr>
+				<tr>
+					<td><input type="button" class="number" name="numberButton" value="4" />
+					<td><input type="button" class="number" name="numberButton" value="5" />
+					<td><input type="button" class="number" name="numberButton" value="6" />
+					<td><input type="button" class="functionalButton" name="functionalButton" id="3" value="*" />
+					<td><input type="button" name="inversion" id="inversion" value="&plusmn;" />
+				</tr>
+				<tr>
+					<td><input type="button" class="number" name="numberButton" value="1" />
+					<td><input type="button" class="number" name="numberButton" value="2" />
+					<td><input type="button" class="number" name="numberButton" value="3" />
+					<td><input type="button" class="functionalButton" name="functionalButton" id="2" value="-" />
+					<td rowspan="2"><input id="output" type="button" name="equal" value="=" />
+				</tr>
+				<tr>
+					<td colspan="2"><input id="zero" class="number" type="button" name="numberButton" value="0" />
+					<td><input type="button" name="point" id="point" value="." />
+					<td><input type="button" class="functionalButton" name="functionalButton" id="1" value="+" />
+				</tr>
+			</table>
+		</form>
+         <br />
+         <br />
+      </div>
+      <div class="c3">
+         <footer>
+            <address>
+               <a href="mailto:mail@mail">Пишите:anton.evseevpb@gmail.com</a>
+            </address>
+            &copy;Евсеев Антон Сергеевич,2016 год
+         </footer>
+      </div>
+      <script src="calc.js"></script>
+   </body>
+</html>

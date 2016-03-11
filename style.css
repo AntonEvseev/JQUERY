@@ -1,0 +1,169 @@
+* { padding: 0; margin: 0; }
+body {width: 800px;
+background-color: gray;
+margin:0 auto;
+padding: 0;
+}
+.head{float: left;
+background-color: white;
+border-radius: 8px;
+font-family: Arial;
+width: 800px;
+padding: 5px;
+}
+.img{display:block;
+float: left; 
+}
+.name{display:table-cell;
+height: 104px;
+vertical-align: middle;
+}
+.nav {display:block;
+float: left; 
+text-align: center;
+width: 800px;
+height: 25px;
+}
+ul.menu
+{list-style-type:none; /*удалил маркеры списка */
+margin-left:180px;
+margin-right:0;
+margin-top:0;
+margin-bottom:0;
+width: 800px;
+height: 70px;
+display: block;
+text-align: left;
+}
+li
+{
+float: left;
+}
+ul.menu > li {
+float: left;
+position: relative;
+}
+ul.menu > li > a {
+display: block;
+padding: 4px;
+text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+display: block;
+}
+ul.submenu {
+display: none;
+position: absolute;
+width: 100px;
+top: 20px;
+left: 0;
+background-color: white;
+border-radius: 8px;
+border: 1px solid black;
+margin:0;
+}
+ul.submenu > li {
+display: block;
+}
+ul.submenu > li > a {
+display: block;
+padding: 3px;
+text-decoration: underline;
+}
+ul.submenu > li > a:hover {
+text-decoration: underline;
+}
+.c2 { float: left;
+background-color: white;
+border-radius: 8px;
+font-family: Arial;
+padding: 5px;
+width: 800px;
+text-align: justify;
+}
+.c3 { float: left;
+background-color: white;
+border-radius: 8px;
+text-align: center;
+font-family: Arial;
+padding: 5px;
+width: 800px;
+}
+p {
+margin: 0;
+}
+.aloneinfo {
+float: right;
+width: 300px;
+border-radius: 8px;
+background-color: #B8B8B8 ;
+border: 1px solid black;
+padding: 4px;
+text-align: justify;
+margin-left: 5px;
+}
+h4 {margin-top: 15px;
+margin-bottom: 15px; 
+}
+h2 {
+margin-bottom: 15px; 
+}
+.calc {
+float: left;
+background-color: white;
+border-radius: 8px;
+padding: 5px;
+width: 800px;
+height: 176px;
+}
+table {border: 0;
+border-spacing: 2px 4px; /* Расстояние между ячейками */
+width: 280px;
+margin: 0 auto;
+}
+td {border: 0;
+width: 50px; /* Ширина кнопки */
+height: 27px; /* Высота кнопки */
+border: lightgray;
+}
+#res {
+border: 1px solid silver;
+width: 276px;
+height: 25px;
+}
+#resbutton {
+width: 80px;
+}
+ul {
+margin-left: 43px;
+}
+button[type="button"] {
+width: 100%; /* Ширина кнопки */
+height: 27px; /* Высота кнопки */
+}
+/*block calc*/
+.calculator {
+	margin: 0 auto;
+	width:265px;
+ 	text-align:center;
+	border-spacing: 2px 5px;
+}
+
+.calculator input {
+	border:2px solid #C8C8C8;
+	border-radius: 2px;
+ 	width:50px;
+	height:28px;
+	background: linear-gradient(to top, #E0E0E0, #fff);
+}
+#result {
+	background:#fff;
+	width:256px;
+	border-radius: 1px;
+}
+#zero {
+	width:100px;
+}
+#output {
+	height:62px;
+}
